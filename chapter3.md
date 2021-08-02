@@ -111,6 +111,12 @@ offset.flush.interval.ms=10000
 # plugin.path=/usr/local/share/java,/usr/local/share/kafka/plugins,/opt/connectors,
 ```
 
+* 실행
+
+```shell
+bin/connect-distributed.sh config/connect-distributed.properties
+```
+
 * REST API 이용해 커넥트 관리
 
 ### 소스 커넥터
