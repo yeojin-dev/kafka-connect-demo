@@ -39,7 +39,8 @@ bin/kafka-topics.sh --bootstrap-server 127.0.0.1:9092 --describe --topic hello.k
     * 분산 모드 : 2대 이상의 서버에서 클러스터로 운영
 
 * REST API 호출해서 현재 실행 중인 커넥트의 조회 가능
-  https://docs.confluent.io/platform/current/connect/references/restapi.html
+    * [REST API](https://docs.confluent.io/platform/current/connect/references/restapi.html)
+    * [config 설정값 정보](https://docs.confluent.io/platform/current/connect/references/connector-configs.html)
 
 #### 단일 모드 커넥트
 
@@ -711,3 +712,8 @@ public class SingleFileSinkTask extends SinkTask {
     }
 }
 ```
+
+### 오픈 소스 커넥터
+
+* 직접 만들기 전에 확인해보자!
+    * [Confluent Connector Portfolio](https://www.confluent.io/product/connectors/)
