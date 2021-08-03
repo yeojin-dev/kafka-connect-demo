@@ -9,7 +9,7 @@ public class SingleFileSourceConnectorConfig extends AbstractConfig {
 
     // 읽을 파일 위치 설정
     public static final String DIR_FILE_NAME = "file";
-    private static final String DIR_FILE_NAME_DEFAULT_VALUE = "/tmp/kafka.txt";
+    private static final String DIR_FILE_NAME_DEFAULT_VALUE = "/tmp/kafka_source.txt";
     private static final String DIR_FILE_NAME_DOC = "읽을 파일 경로와 이름";
 
     // 데이터를 보낼 토픽 설정
